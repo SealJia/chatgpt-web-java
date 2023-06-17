@@ -13,7 +13,6 @@ import org.springframework.context.annotation.FullyQualifiedAnnotationBeanNameGe
 @MapperScan(value = {"com.hncboy.**.mapper"})
 @SpringBootApplication(nameGenerator = FullyQualifiedAnnotationBeanNameGenerator.class)
 public class ChatGptApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ChatGptApplication.class, args);
     }
